@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+<body>
+  <div class="main">
+    
+      <div id="quiz">Quiz</div>
+       <hr>
+      <h2 id="screen"></h2>
+    
+    <div class="quebox">
+      <div class="row">
+        <input type="radio" name="option" id="A">
+        <label for="A"></label>
+      </div>
+    
+      <div class="row">
+        <input type="radio" name="option" id="B">
+        <label for="B"></label>
+      </div>
+    
+      <div class="row">
+        <input type="radio" name="option" id="C">
+        <label for="C"></label>
+      </div>
+    
+      <div class="row">
+        <input type="radio" name="option" id="D">
+        <label for="D"></label>
+      </div>
+    </div>
+    
+    <div class="btndiv">
+      <div class="counter">
+         <span></span>
+      </div>
+      <span id="timer"></span>
+      <button 
+      onclick="next()"
+      class="btn">Next
+      </button>
+    </div>
+    
+  </div>
+  <script src="Que.js"></script>
+  <script src="script.js"></script>
+  </body>
+</html>
